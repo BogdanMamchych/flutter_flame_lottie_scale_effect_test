@@ -44,10 +44,10 @@ class ScaleEffectGame extends FlameGame {
           //Тут також не запрещаю гратися :)
           if (reset) {
             animation.add(
-                ScaleEffect.by(Vector2.all(3), EffectController(duration: 1)));
+                ScaleEffect.to(Vector2.all(1), EffectController(duration: 1)));
           } else {
             animation.add(ScaleEffect.by(
-                Vector2.all(1 / 3), EffectController(duration: 1)));
+                Vector2.all(3), EffectController(duration: 1)));
           }
           reset = !reset;
         });
