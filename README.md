@@ -1,16 +1,12 @@
 # flutter_flame_lottie_scale_effect_test
 
-A new Flutter project.
+Тестування ефекту ScaleEffect на Flame. Flutter
 
-## Getting Started
+## Опис
 
-This project is a starting point for a Flutter application.
+### ScaleEffect - ефект, який змінює масштаб. ScaleEffect.by() змінює маштаб анімації на задану величину, а ScaleEffect.to() також змінює масштаб на задану величину, тільки встановлює абсолютне значення величини.
 
-A few resources to get you started if this is your first Flutter project:
+## Атрибути
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### - scaleFactor - масштаб;
+### - controller - контроллер ефекту, в якому можна задати такі значення, як duration - тривалість(до речі, чим менше тривалість, тим більша швидкість), infinite - чи є ефект безкінечним, alternate - чи буде виконання в зворотній бік після виконання і т.д;
