@@ -23,7 +23,6 @@ class ScaleEffectGame extends FlameGame {
   Future<void> onLoad() async {
     //Перегляд позицій компонентів(при бажанні, можете увімкнути)
     debugMode = true;
-    bool reset = false;
     //Завантаження анімації та створення 'будівельного' віджету
     final LottieBuilder lottieBuilder = Lottie.asset('assets/win.json');
     //Компонування анімації, щоб Flame використовував анімації
